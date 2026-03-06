@@ -13,7 +13,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 <!-- Custom CSS -->
-<link rel="stylesheet" href="../CSS/style.css">
+<link rel="stylesheet" href="CSS/style.css">
 
 </head>
 
@@ -45,7 +45,7 @@
 <div class="container">
 
 <a class="navbar-brand" href="#">
-<img src="../Assets/images/logo.png" class="site-logo">
+<img src="Assets/images/logo.png" class="site-logo">
 </a>
 
 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
@@ -72,13 +72,14 @@
 <a class="nav-link" href="#">PROPERTIES</a>
 </li>
 
+<!----
 <li class="nav-item">
 <a class="nav-link" href="#">ALL PROPERTIES</a>
 </li>
 
 <li class="nav-item">
 <a class="nav-link" href="#">SELL PROPERTIES</a>
-</li>
+</li> ---->
 
 <li class="nav-item">
 <a class="nav-link" href="#">CONTACT</a>
