@@ -61,7 +61,7 @@
 </li>
 
 <li class="nav-item">
-<a class="nav-link" href="#">PROPERTIES</a>
+<a class="nav-link" href="#">ABOUT</a>
 </li>
 
 <li class="nav-item">
@@ -69,11 +69,23 @@
 </li>
 
 <li class="nav-item">
-<a class="nav-link" href="#">ABOUT</a>
+<a class="nav-link" href="#">PROPERTIES</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">ALL PROPERTIES</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">SELL PROPERTIES</a>
 </li>
 
 <li class="nav-item">
 <a class="nav-link" href="#">CONTACT</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">BLOG</a>
 </li>
 
 </ul>
@@ -143,9 +155,9 @@
 
 <select>
 <option>Select Location</option>
-<option>Gomti Nagar</option>
-<option>Hazratganj</option>
-<option>Aliganj</option>
+<option>.....</option>
+<option>......</option>
+<option>.....</option>
 </select>
 
 </div>
@@ -193,11 +205,7 @@
 <button class="filter">Odisa</button>
 
 
-<button class="filter">gomtinagar</button>
-<button class="filter">Hinjewadi</button>
-<button class="filter">Kilimani</button>
-<button class="filter">Pune</button>
-<button class="filter">Sarjapur Road</button>
+
 
 </div>
 
