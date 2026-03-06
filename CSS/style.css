@@ -1,0 +1,528 @@
+/* ===== TOP BAR ===== */
+
+.topbar{
+background:#1e2a5a;
+color:white;
+font-size:14px;
+padding:7px 0;
+transition:.3s;
+}
+
+.topbar span{
+margin-right:20px;
+}
+
+.topbar a{
+color:white;
+text-decoration:none;
+margin-left:15px;
+transition:.3s;
+}
+
+.topbar a:hover{
+color:#ff4d4d;
+}
+
+
+/* ===== NAVBAR ===== */
+
+.main-navbar{
+background:white;
+padding:18px 0;
+box-shadow:0 3px 10px rgba(0,0,0,0.08);
+transition:.3s;
+}
+
+.site-logo{
+height:60px;
+width:auto;
+}
+
+.navbar-nav .nav-link{
+color:#333;
+font-weight:600;
+font-size:17px;
+margin:0 16px;
+position:relative;
+transition:.3s;
+}
+
+/* underline hover animation */
+
+.navbar-nav .nav-link::after{
+content:'';
+position:absolute;
+width:0;
+height:2px;
+background:#ff4d4d;
+left:0;
+bottom:-6px;
+transition:.3s;
+}
+
+.navbar-nav .nav-link:hover::after{
+width:100%;
+}
+
+/* CLICK hone par bhi underline */
+
+.navbar-nav .nav-link.active::after{
+width:100%;
+}
+
+
+/* ===== SUBMIT PROPERTY BUTTON ===== */
+
+.property-btn{
+border:2px solid #ff4d4d;
+padding:10px 26px;
+color:#ff4d4d;
+font-weight:600;
+background:white;
+transition:.3s;
+font-size:15px;
+}
+
+.property-btn:hover{
+background:#ff4d4d;
+color:white;
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+transform:translateY(-2px);
+}
+
+
+/* ===== NAVBAR FIXED AFTER SCROLL ===== */
+
+.navbar-fixed{
+position:fixed;
+top:0;
+width:100%;
+z-index:999;
+animation:slideDown .4s ease;
+}
+
+@keyframes slideDown{
+from{
+transform:translateY(-100%);
+}
+to{
+transform:translateY(0);
+}
+}
+
+
+/* ===== HERO SECTION (IMAGE BACKGROUND) ===== */
+
+/* ===== HERO SECTION ===== */
+
+.hero{
+position:relative;
+min-height:100vh;
+background:url("../Assets/images/hero.jpg") center/cover no-repeat;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+padding:120px 20px 80px;
+}
+
+/* DARK OVERLAY */
+
+.hero-overlay{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.45);
+z-index:0;
+}
+
+/* CONTENT */
+
+.hero-content{
+position:relative;
+z-index:2;
+width:100%;
+max-width:1200px;
+margin:auto;
+}
+
+/* HERO TEXT */
+
+.hero-content h1{
+font-size:60px;
+font-weight:700;
+letter-spacing:2px;
+margin-bottom:15px;
+}
+
+.hero-content p{
+font-size:20px;
+margin-bottom:40px;
+}
+
+
+/* ===== SEARCH BOX ===== */
+
+.search-box{
+background:white;
+padding:45px;
+border-radius:15px;
+max-width:1100px;
+width:100%;
+margin:auto;
+color:#333;
+box-shadow:0 20px 50px rgba(0,0,0,0.25);
+}
+
+
+/* ===== SEARCH TABS ===== */
+
+.search-tabs{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:15px;
+margin-bottom:25px;
+border-bottom:1px solid #ddd;
+font-size:18px;
+font-weight:500;
+}
+
+.search-tabs span{
+padding:10px 18px;
+cursor:pointer;
+transition:.3s;
+}
+
+.search-tabs span:hover{
+color:#ff4d4d;
+}
+
+.search-tabs .active{
+color:#ff4d4d;
+border-bottom:2px solid #ff4d4d;
+}
+
+
+/* ===== SEARCH ROW ===== */
+
+.search-row{
+display:flex;
+gap:15px;
+margin-bottom:25px;
+flex-wrap:wrap;
+}
+
+.search-row input{
+flex:1;
+min-width:200px;
+padding:16px;
+border:1px solid #ddd;
+border-radius:8px;
+font-size:16px;
+}
+
+
+/* SEARCH BUTTON */
+
+.search-btn{
+background:#ff4d4d;
+color:white;
+border:none;
+padding:16px 28px;
+border-radius:8px;
+cursor:pointer;
+font-size:16px;
+font-weight:600;
+transition:.3s;
+}
+
+.search-btn:hover{
+background:#e63946;
+}
+
+
+/* TOGGLE BUTTON */
+
+.toggle-btn{
+width:55px;
+border:none;
+background:#f1f1f1;
+border-radius:8px;
+font-size:22px;
+cursor:pointer;
+transition:.3s;
+}
+
+.toggle-btn:hover{
+background:#ddd;
+}
+
+
+/* ===== TYPE BUTTONS ===== */
+
+.type-btns{
+display:flex;
+gap:12px;
+margin-bottom:20px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.type-btns button{
+padding:10px 20px;
+border:1px solid #ddd;
+background:white;
+border-radius:25px;
+cursor:pointer;
+transition:.3s;
+font-size:14px;
+}
+
+.type-btns button:hover{
+background:#ff4d4d;
+color:white;
+border-color:#ff4d4d;
+}
+
+
+/* ===== DROPDOWNS ===== */
+
+.dropdowns{
+display:flex;
+gap:15px;
+flex-wrap:wrap;
+}
+
+.dropdowns select{
+flex:1;
+min-width:180px;
+padding:14px;
+border:1px solid #ddd;
+border-radius:8px;
+font-size:15px;
+}
+
+
+/* ===== TABLET ===== */
+
+@media(max-width:991px){
+
+.hero-content h1{
+font-size:42px;
+}
+
+.hero-content p{
+font-size:17px;
+}
+
+.search-box{
+padding:30px;
+}
+
+.search-row{
+flex-direction:column;
+}
+
+.search-btn{
+width:100%;
+}
+
+.toggle-btn{
+width:100%;
+}
+
+}
+
+
+/* ===== MOBILE ===== */
+
+@media(max-width:576px){
+
+.hero{
+padding:100px 15px 60px;
+}
+
+.hero-content h1{
+font-size:30px;
+line-height:1.3;
+}
+
+.hero-content p{
+font-size:15px;
+}
+
+.search-box{
+padding:22px;
+}
+
+.search-tabs{
+font-size:15px;
+gap:10px;
+}
+
+.search-row input{
+font-size:14px;
+padding:14px;
+}
+
+}
+
+
+.promo-bar{
+  background:#d72631;
+  padding:22px 20px;
+}
+
+.promo-container{
+  max-width:1200px;
+  margin:auto;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:15px;
+  flex-wrap:wrap;
+}
+
+.promo-container p{
+  color:#fff;
+  font-size:20px;
+  margin:0;
+  font-weight:500;
+  letter-spacing:0.3px;
+}
+
+.promo-phone{
+  background:#fff;
+  color:#d72631;
+  padding:8px 18px;
+  border-radius:6px;
+  font-size:18px;
+  font-weight:600;
+  text-decoration:none;
+  transition:0.3s;
+}
+
+.promo-phone:hover{
+  background:#f3f3f3;
+  transform:translateY(-2px);
+}
+
+/* Tablet */
+@media (max-width:768px){
+
+  .promo-container p{
+    font-size:17px;
+  }
+
+  .promo-phone{
+    font-size:16px;
+  }
+
+}
+
+/* Mobile */
+@media (max-width:480px){
+
+  .promo-container{
+    flex-direction:column;
+    text-align:center;
+  }
+
+  .promo-container p{
+    font-size:16px;
+  }
+
+}
+
+
+/*Explore Property SECTION */
+
+.explore-projects{
+padding:90px 20px;
+background:#f8f8f8;
+}
+
+.container{
+max-width:1100px;
+margin:auto;
+text-align:center;
+}
+
+/* Heading */
+
+.section-title{
+font-size:38px;
+font-weight:700;
+letter-spacing:1px;
+margin-bottom:55px;
+position:relative;
+}
+
+.section-title::after{
+content:"";
+width:60px;
+height:3px;
+background:#d72631;
+display:block;
+margin:14px auto 0;
+}
+
+/* Filters */
+
+.location-filters{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:18px;
+max-width:900px;
+margin:auto;
+}
+
+/* Button */
+
+.filter{
+padding:10px 22px;
+border-radius:25px;
+border:1px solid #ddd;
+background:#fff;
+font-size:20px;
+cursor:pointer;
+color:#444;
+position:relative;
+}
+
+/* underline hover */
+
+.filter::after{
+content:"";
+position:absolute;
+left:15px;
+right:15px;
+bottom:6px;
+height:2px;
+background:#d72631;
+transform:scaleX(0);
+transition:0.3s;
+}
+
+.filter:hover::after{
+transform:scaleX(1);
+}
+
+/* active */
+
+.filter.active{
+background:#d72631;
+color:#fff;
+border-color:#d72631;
+}
+
+.filter.active::after{
+display:none;
+}
+
+/*Explore Property SECTION End */
