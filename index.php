@@ -1,3 +1,3 @@
 <?php
-require 'pages/index.php';
+require 'Pages/index.php';
 ?>
