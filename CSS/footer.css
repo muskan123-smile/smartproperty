@@ -1,340 +1,235 @@
-/* ===== GLOBAL ===== */
+.footer{
 
-body{
-font-family:Arial, Helvetica, sans-serif;
-margin:0;
-padding:0;
-}
-
-
-/* ===== TOP BAR ===== */
-
-.topbar{
-background:#1e2a5a;
+background:#062447;
 color:#fff;
+padding:80px 20px 0;
+position:relative;
+
+}
+
+/* GRID */
+
+.footer-grid{
+
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:40px;
+
+}
+
+.footer-col h3{
+
+font-size:22px;
+margin-bottom:20px;
+
+}
+
+.footer-col p{
+
 font-size:14px;
-padding:7px 0;
+margin-bottom:10px;
+
 }
 
-.topbar span{
-margin-right:20px;
+.footer-col i{
+
+color:#ff9800;
+margin-right:8px;
+
 }
 
-.topbar a{
+/* BUTTON */
+
+.footer-btn{
+
+background:#ff9800;
+border:none;
+padding:12px 22px;
+border-radius:6px;
+color:#fff;
+margin-top:10px;
+cursor:pointer;
+transition:0.3s;
+
+}
+
+.footer-btn:hover{
+
+background:#ff7700;
+
+}
+
+/* LINKS */
+
+.footer-links{
+
+list-style:none;
+padding:0;
+
+}
+
+.footer-links li{
+
+margin-bottom:10px;
+
+}
+
+.footer-links a{
+
 color:#fff;
 text-decoration:none;
-margin-left:15px;
-transition:.3s;
-}
-
-.topbar a:hover{
-color:#ff4d4d;
-}
-
-
-/* ===== NAVBAR ===== */
-
-.main-navbar{
-background:#fff;
-padding:18px 0;
-box-shadow:0 3px 10px rgba(0,0,0,0.08);
-transition:.3s;
-}
-
-.site-logo{
-height:60px;
-}
-
-.navbar-nav .nav-link{
-color:#333;
-font-weight:600;
-font-size:17px;
-margin:0 16px;
-position:relative;
-}
-
-/* underline hover */
-
-.navbar-nav .nav-link::after{
-content:"";
-position:absolute;
-width:0;
-height:2px;
-background:#ff4d4d;
-left:0;
-bottom:-6px;
-transition:.3s;
-}
-
-.navbar-nav .nav-link:hover::after{
-width:100%;
-}
-
-.navbar-nav .nav-link.active::after{
-width:100%;
-}
-
-
-/* ===== SUBMIT BUTTON ===== */
-
-.property-btn{
-border:2px solid #ff4d4d;
-padding:10px 26px;
-color:#ff4d4d;
-font-weight:600;
-background:#fff;
-transition:.3s;
-}
-
-.property-btn:hover{
-background:#ff4d4d;
-color:#fff;
-transform:translateY(-2px);
-}
-
-
-/* ===== NAVBAR FIXED ===== */
-
-.navbar-fixed{
-position:fixed;
-top:0;
-width:100%;
-z-index:999;
-animation:slideDown .4s ease;
-}
-
-@keyframes slideDown{
-
-from{ transform:translateY(-100%); }
-to{ transform:translateY(0); }
+transition:0.3s;
 
 }
 
+.footer-links a:hover{
 
-/* ===== HERO SECTION ===== */
+color:#ff9800;
+padding-left:5px;
 
-.hero{
-position:relative;
-min-height:100vh;
-background:url("../Assets/images/hero.jpg") center/cover no-repeat;
-display:flex;
-align-items:center;
-justify-content:center;
-text-align:center;
-color:#fff;
-padding:120px 20px;
 }
 
-.hero-overlay{
-position:absolute;
-top:0;
-left:0;
-width:100%;
-height:100%;
-background:rgba(0,0,0,0.45);
-}
+/* RECENT PROPERTY */
 
-.hero-content{
-position:relative;
-z-index:2;
-max-width:1200px;
-}
+.recent-property{
 
-.hero-content h1{
-font-size:60px;
-font-weight:700;
-margin-bottom:15px;
-}
-
-.hero-content p{
-font-size:20px;
-margin-bottom:40px;
-}
-
-
-/* ===== SEARCH BOX ===== */
-
-.search-box{
-background:#fff;
-padding:45px;
-border-radius:15px;
-max-width:1100px;
-margin:auto;
-color:#333;
-box-shadow:0 20px 50px rgba(0,0,0,0.25);
-}
-
-/* tabs */
-
-.search-tabs{
-display:flex;
-justify-content:center;
-gap:15px;
-flex-wrap:wrap;
-margin-bottom:25px;
-border-bottom:1px solid #ddd;
-}
-
-.search-tabs span{
-padding:10px 18px;
-cursor:pointer;
-}
-
-.search-tabs span:hover{
-color:#ff4d4d;
-}
-
-.search-tabs .active{
-color:#ff4d4d;
-border-bottom:2px solid #ff4d4d;
-}
-
-/* row */
-
-.search-row{
-display:flex;
-gap:15px;
-flex-wrap:wrap;
-margin-bottom:25px;
-}
-
-.search-row input{
-flex:1;
-padding:16px;
-border:1px solid #ddd;
-border-radius:8px;
-}
-
-/* buttons */
-
-.search-btn{
-background:#ff4d4d;
-color:#fff;
-border:none;
-padding:16px 28px;
-border-radius:8px;
-}
-
-.toggle-btn{
-width:55px;
-border:none;
-background:#f1f1f1;
-border-radius:8px;
-font-size:22px;
-}
-
-
-/* ===== TYPE BUTTONS ===== */
-
-.type-btns{
 display:flex;
 gap:12px;
-flex-wrap:wrap;
-justify-content:center;
-margin-bottom:20px;
+margin-bottom:18px;
+
 }
 
-.type-btns button{
-padding:10px 20px;
-border:1px solid #ddd;
-background:#fff;
-border-radius:25px;
-cursor:pointer;
-}
+.recent-property img{
 
-.type-btns button:hover{
-background:#ff4d4d;
-color:#fff;
-}
-
-
-/* ===== DROPDOWNS ===== */
-
-.dropdowns{
-display:flex;
-gap:15px;
-flex-wrap:wrap;
-}
-
-.dropdowns select{
-flex:1;
-min-width:180px;
-padding:14px;
-border:1px solid #ddd;
-border-radius:8px;
-}
-
-
-/* ===== PROMO BAR ===== */
-
-.promo-bar{
-background:#d72631;
-padding:22px 20px;
-}
-
-.promo-container{
-max-width:1200px;
-margin:auto;
-display:flex;
-justify-content:center;
-align-items:center;
-gap:15px;
-flex-wrap:wrap;
-}
-
-.promo-container p{
-color:#fff;
-font-size:20px;
-margin:0;
-}
-
-.promo-phone{
-background:#fff;
-color:#d72631;
-padding:8px 18px;
+width:60px;
+height:60px;
+object-fit:cover;
 border-radius:6px;
-text-decoration:none;
+
 }
 
+.recent-property span{
 
-/* ===== EXPLORE PROJECTS ===== */
+color:#ff9800;
+font-size:13px;
 
-.explore-projects{
-padding:90px 20px;
-background:#f8f8f8;
-text-align:center;
 }
 
-.section-title{
-font-size:38px;
-font-weight:700;
-margin-bottom:55px;
+/* FORM */
+
+.footer-form input,
+.footer-form textarea{
+
+width:100%;
+padding:10px;
+margin-bottom:12px;
+border:none;
+border-radius:6px;
+
 }
 
-.location-filters{
-display:flex;
-flex-wrap:wrap;
-justify-content:center;
-gap:18px;
+.footer-form textarea{
+
+height:90px;
+resize:none;
+
 }
 
-.filter{
-padding:10px 22px;
-border-radius:25px;
-border:1px solid #ddd;
-background:#fff;
-font-size:16px;
-cursor:pointer;
-}
+.footer-form button{
 
-.filter.active{
-background:#d72631;
+width:100%;
+background:#ff9800;
+border:none;
+padding:12px;
 color:#fff;
-border-color:#d72631;
+border-radius:6px;
+cursor:pointer;
+transition:0.3s;
+
+}
+
+.footer-form button:hover{
+
+background:#ff7700;
+
+}
+
+/* SOCIAL */
+
+.footer-social{
+
+margin-top:15px;
+
+}
+
+.footer-social a{
+
+display:inline-block;
+width:35px;
+height:35px;
+line-height:35px;
+text-align:center;
+background:#0b3568;
+border-radius:50%;
+color:#fff;
+margin-right:8px;
+transition:0.3s;
+
+}
+
+.footer-social a:hover{
+
+background:#ff9800;
+
+}
+
+/* COPYRIGHT */
+
+.footer-bottom{
+
+text-align:center;
+border-top:1px solid rgba(255,255,255,0.2);
+margin-top:40px;
+padding:20px;
+font-size:14px;
+
+}
+
+/* RESPONSIVE */
+
+@media(max-width:992px){
+
+.footer-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:600px){
+
+.footer-grid{
+
+grid-template-columns:1fr;
+
+}
+
 }
 
 
-/* ===== Explore Project End ===== */
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*  BEST SELLER SECTION */
 
@@ -407,7 +302,7 @@ transform:translateX(5px);
 
 /* PROPERTY CARD */
 
-.property-card{
+.prooperty-card{
 background:white;
 padding:40px;
 border-radius:14px;
@@ -795,7 +690,7 @@ text-align:center;
 
 }
 
-/* HOME HERO SECTION END*/
+
 
 /* RENT SECTION START*/
 
@@ -834,7 +729,7 @@ position:relative;
 }
 
 .rent-tabs a.active{
-color:#ff3c2f;
+color:#2b5cff;
 }
 
 .rent-tabs a.active::after{
@@ -912,11 +807,14 @@ font-size:14px;
 
 /* RENT SECTION END*/
 
+
+/* SLIDER CARD SECTION START*/
+
 /* SLIDER CARD SECTION START*/
 
 .property-slider{
 padding:80px 0;
-background:#f8f9fb;
+background:#fff;
 }
 
 .slider-title{
@@ -926,73 +824,43 @@ font-weight:700;
 margin-bottom:40px;
 }
 
-.slider-p{
-margin: bottom 30px;
-
-}
-
 .property-card{
 background:#fff;
 border-radius:10px;
 overflow:hidden;
 box-shadow:0 5px 15px rgba(0,0,0,0.08);
 transition:.3s;
+max-width:260px;
+margin:auto;
 }
 
+/* Image Fix */
 .property-card img{
 width:100%;
-height:160px;
+height:180px;
 object-fit:cover;
 display:block;
-max-height:160px;
-
 }
 
 .property-card h3{
-font-size:18px;
-padding:15px 15px 5px;
+font-size:16px;
+padding:12px 12px 5px;
+margin:0;
 }
 
 .property-card p{
-font-size:14px;
+font-size:13px;
 color:#777;
-padding:0 15px 20px;
+padding:0 12px 12px;
+margin:0;
 }
 
 .property-card:hover{
-transform:translateY(-8px);
+transform:translateY(-6px);
 box-shadow:0 10px 25px rgba(0,0,0,0.15);
 }
 
 /* SLIDER CARD SECTION END*/
-
-
-.property-card{
-
-border-radius:10px;
-overflow:hidden;
-box-shadow:0px 3px 10px rgba(0,0,0,0.1);
-
-}
-
-.property-card img{
-
-height:200px;
-object-fit:cover;
-
-}
-
-.price{
-
-color:red;
-font-weight:bold;
-
-}
-
-.swiper{
-
-padding:20px;
-
-}
+/* SLIDER CARD SECTION END*/
 
 
