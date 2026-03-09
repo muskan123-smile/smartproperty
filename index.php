@@ -407,9 +407,11 @@ View All <i class="fa-solid fa-arrow-right"></i>
 
 </div>
 
-<div class="row g-4">
 
-<!-- Card 1 -->
+<!-- Second Row -->
+<div class="row g-4 mt-4">
+
+<!-- Card 5 -->
 <div class="col-lg-3 col-md-6">
 <div class="property-card">
 
@@ -435,7 +437,7 @@ View All <i class="fa-solid fa-arrow-right"></i>
 </div>
 </div>
 
-<!-- Card 2 -->
+<!-- Card 6 -->
 <div class="col-lg-3 col-md-6">
 <div class="property-card">
 
@@ -461,7 +463,7 @@ View All <i class="fa-solid fa-arrow-right"></i>
 </div>
 </div>
 
-<!-- Card 3 -->
+<!-- Card 7 -->
 <div class="col-lg-3 col-md-6">
 <div class="property-card">
 
@@ -487,7 +489,7 @@ View All <i class="fa-solid fa-arrow-right"></i>
 </div>
 </div>
 
-<!-- Card 4 -->
+<!-- Card 8 -->
 <div class="col-lg-3 col-md-6">
 <div class="property-card">
 
