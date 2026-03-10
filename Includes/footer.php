@@ -77,7 +77,7 @@
 
 <div class="recent-property">
 
-<img src="Assets/images/property1.jpg">
+<img src="Assets/images/plot1.png">
 
 <div>
 <p>2 BHK Flat for Rent in balasore</p>
@@ -89,7 +89,7 @@
 
 <div class="recent-property">
 
-<img src="Assets/images/property2.jpg">
+<img src="Assets/images/plot2.png">
 
 <div>
 <p>3 BHK Flat for Rent in VTP</p>
@@ -101,7 +101,7 @@
 
 <div class="recent-property">
 
-<img src="Assets/images/property3.jpg">
+<img src="Assets/images/plot3.png">
 
 <div>
 <p>2 BHK Flat for Sale</p>
