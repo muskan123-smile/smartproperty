@@ -31,7 +31,7 @@
 
 <h3>Contact Us</h3>
 
-<p><i class="fa-solid fa-location-dot"></i> Address: ......</p>
+<p><i class="fa-solid fa-location-dot"></i> Address: Remuna Golei, Balasore, Odisha – 756019</p>
 <p><i class="fa-solid fa-envelope"></i> Email: contact@smartproperty.co.in</p>
 <p><i class="fa-solid fa-phone"></i> Phone: +91 6370122173</p>
 

@@ -291,6 +291,66 @@ View All <i class="fa-solid fa-arrow-right"></i>
 
 <!-- Best seller section end-->
 
+<!-- Featured Property Section Start-->
+
+<section class="fp-section">
+
+<h2 class="fp-title">FEATURED PROJECT</h2>
+
+<div class="fp-wrapper">
+
+<div class="fp-card">
+
+<div class="fp-image">
+
+<span class="fp-badge">FEATURED</span>
+
+<img src="Assets/images/plot8.png" alt="project">
+
+<div class="fp-price">
+₹ 6,07,20,00,00 - ₹ 10,35,60,00,00
+</div>
+
+</div>
+
+<div class="fp-content">
+
+<h3 class="fp-name">VTP Aethereus</h3>
+
+<p class="fp-location">
+<i class="fa fa-map-marker"></i> 37
+</p>
+
+<div class="fp-details">
+
+<div class="fp-row">
+<span>Project Type:</span>
+<strong>12</strong>
+</div>
+
+<div class="fp-row">
+<span>Launch Date:</span>
+<strong><i class="fa fa-calendar"></i> 01-01-2020</strong>
+</div>
+
+<div class="fp-row">
+<span>Possession Date:</span>
+<strong><i class="fa fa-calendar"></i> 01-01-2020</strong>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Featured Property Section End-->
+
+
 <!-- Card section start-->
 
 <section class="featured-properties">
@@ -299,14 +359,14 @@ View All <i class="fa-solid fa-arrow-right"></i>
 
 <h2 class="section-text">FEATURED PROPERTIES</h2>
 
-<div class="row g-4">
+<div class="row g-3">
 
 <!-- Card 1 -->
-<div class="col-lg-3 col-md-6">
+<div class="col-xl-3 col-lg-3 col-md-6">
 <div class="property-card">
 
 <div class="property-image">
-<img src="Assets/images/logoo.png" class="img-fluid">
+<img src="Assets/images/plot1.png" class="img-fluid">
 
 <span class="property-badge featured">FEATURED</span>
 <span class="property-badge rent">RENT</span>
@@ -315,8 +375,8 @@ View All <i class="fa-solid fa-arrow-right"></i>
 </div>
 
 <div class="property-content">
-<h3>2 BHK Flat for Rent in ?</h3>
-<p class="location">📍 ......</p>
+<h3>2 BHK Flat for Rent</h3>
+<p class="location">📍 Balasore</p>
 
 <div class="property-info">
 <span>🏢 Residential</span>
@@ -328,11 +388,11 @@ View All <i class="fa-solid fa-arrow-right"></i>
 </div>
 
 <!-- Card 2 -->
-<div class="col-lg-3 col-md-6">
+<div class="col-xl-3 col-lg-3 col-md-6">
 <div class="property-card">
 
 <div class="property-image">
-<img src="Assets/images/property2.jpg" class="img-fluid">
+<img src="Assets/images/plot2.png" class="img-fluid">
 
 <span class="property-badge featured">FEATURED</span>
 <span class="property-badge rent">RENT</span>
@@ -341,8 +401,8 @@ View All <i class="fa-solid fa-arrow-right"></i>
 </div>
 
 <div class="property-content">
-<h3>3 BHK Flat for Rent in VTP</h3>
-<p class="location">📍 ......</p>
+<h3>3 BHK Flat for Rent</h3>
+<p class="location">📍 Balasore</p>
 
 <div class="property-info">
 <span>🏢 Residential</span>
@@ -354,11 +414,11 @@ View All <i class="fa-solid fa-arrow-right"></i>
 </div>
 
 <!-- Card 3 -->
-<div class="col-lg-3 col-md-6">
+<div class="col-xl-3 col-lg-3 col-md-6">
 <div class="property-card">
 
 <div class="property-image">
-<img src="Assets/images/property3.jpg" class="img-fluid">
+<img src="Assets/images/plot3.png" class="img-fluid">
 
 <span class="property-badge featured">FEATURED</span>
 <span class="property-badge buy">BUY</span>
@@ -367,8 +427,8 @@ View All <i class="fa-solid fa-arrow-right"></i>
 </div>
 
 <div class="property-content">
-<h3>2 BHK Furnished Flat for Sale</h3>
-<p class="location">📍 ......</p>
+<h3>2 BHK Furnished Flat</h3>
+<p class="location">📍 Balasore</p>
 
 <div class="property-info">
 <span>🏢 Residential</span>
@@ -380,11 +440,11 @@ View All <i class="fa-solid fa-arrow-right"></i>
 </div>
 
 <!-- Card 4 -->
-<div class="col-lg-3 col-md-6">
+<div class="col-xl-3 col-lg-3 col-md-6">
 <div class="property-card">
 
 <div class="property-image">
-<img src="Assets/images/property4.jpg" class="img-fluid">
+<img src="Assets/images/plot4.png" class="img-fluid">
 
 <span class="property-badge featured">FEATURED</span>
 <span class="property-badge buy">BUY</span>
@@ -394,7 +454,7 @@ View All <i class="fa-solid fa-arrow-right"></i>
 
 <div class="property-content">
 <h3>Luxury 3 BHK Apartment</h3>
-<p class="location">📍 ......</p>
+<p class="location">📍 Balasore</p>
 
 <div class="property-info">
 <span>🏢 Residential</span>
@@ -405,18 +465,12 @@ View All <i class="fa-solid fa-arrow-right"></i>
 </div>
 </div>
 
-</div>
-
-
-<!-- Second Row -->
-<div class="row g-4 mt-4">
-
 <!-- Card 5 -->
-<div class="col-lg-3 col-md-6">
+<div class="col-xl-3 col-lg-3 col-md-6">
 <div class="property-card">
 
 <div class="property-image">
-<img src="Assets/images/logoo.png" class="img-fluid">
+<img src="Assets/images/plot5.png" class="img-fluid">
 
 <span class="property-badge featured">FEATURED</span>
 <span class="property-badge rent">RENT</span>
@@ -425,8 +479,8 @@ View All <i class="fa-solid fa-arrow-right"></i>
 </div>
 
 <div class="property-content">
-<h3>2 BHK Flat for Rent in ?</h3>
-<p class="location">📍 ......</p>
+<h3>Modern 2 BHK Flat</h3>
+<p class="location">📍 Balasore</p>
 
 <div class="property-info">
 <span>🏢 Residential</span>
@@ -438,11 +492,11 @@ View All <i class="fa-solid fa-arrow-right"></i>
 </div>
 
 <!-- Card 6 -->
-<div class="col-lg-3 col-md-6">
+<div class="col-xl-3 col-lg-3 col-md-6">
 <div class="property-card">
 
 <div class="property-image">
-<img src="Assets/images/property2.jpg" class="img-fluid">
+<img src="Assets/images/plot6.png" class="img-fluid">
 
 <span class="property-badge featured">FEATURED</span>
 <span class="property-badge rent">RENT</span>
@@ -451,8 +505,8 @@ View All <i class="fa-solid fa-arrow-right"></i>
 </div>
 
 <div class="property-content">
-<h3>3 BHK Flat for Rent in ?</h3>
-<p class="location">📍 ......</p>
+<h3>3 BHK Flat</h3>
+<p class="location">📍 Balasore</p>
 
 <div class="property-info">
 <span>🏢 Residential</span>
@@ -464,11 +518,11 @@ View All <i class="fa-solid fa-arrow-right"></i>
 </div>
 
 <!-- Card 7 -->
-<div class="col-lg-3 col-md-6">
+<div class="col-xl-3 col-lg-3 col-md-6">
 <div class="property-card">
 
 <div class="property-image">
-<img src="Assets/images/property3.jpg" class="img-fluid">
+<img src="Assets/images/plot7.png" class="img-fluid">
 
 <span class="property-badge featured">FEATURED</span>
 <span class="property-badge buy">BUY</span>
@@ -477,8 +531,8 @@ View All <i class="fa-solid fa-arrow-right"></i>
 </div>
 
 <div class="property-content">
-<h3>2 BHK Furnished Flat for Sale</h3>
-<p class="location">📍 ......</p>
+<h3></h3>
+<p class="location">📍 Balasore</p>
 
 <div class="property-info">
 <span>🏢 Residential</span>
@@ -490,11 +544,11 @@ View All <i class="fa-solid fa-arrow-right"></i>
 </div>
 
 <!-- Card 8 -->
-<div class="col-lg-3 col-md-6">
+<div class="col-xl-3 col-lg-3 col-md-6">
 <div class="property-card">
 
 <div class="property-image">
-<img src="Assets/images/property4.jpg" class="img-fluid">
+<img src="Assets/images/plot8.png" class="img-fluid">
 
 <span class="property-badge featured">FEATURED</span>
 <span class="property-badge buy">BUY</span>
@@ -503,8 +557,8 @@ View All <i class="fa-solid fa-arrow-right"></i>
 </div>
 
 <div class="property-content">
-<h3>Luxury 3 BHK Apartment</h3>
-<p class="location">📍 ......</p>
+<h3>Luxury Apartment</h3>
+<p class="location">📍 Balasore</p>
 
 <div class="property-info">
 <span>🏢 Residential</span>
@@ -627,82 +681,108 @@ From budget-friendly apartments to luxury villas, we have it all!
 <!-- Rent Section end-->
 
 <!-- Slider card Start-->
-<div class="container mt-5">
 
-<div class="swiper property-slider">
+
+
+<section class="real-slider-section">
+
+<div class="container">
+
+<div class="swiper realSlider">
 
 <div class="swiper-wrapper">
 
-<!-- CARD 1 -->
+<!-- CARD -->
 <div class="swiper-slide">
-<div class="card property-card">
 
-<img src="Assets/images/logo.png" class="card-img-top">
+<div class="real-card">
 
-<div class="card-body">
+<div class="real-img">
+<img src="Assets/images/plot1.png">
+<div class="real-price">₹32K /month</div>
+</div>
 
-<h5>2 BHK Furnished Flat</h5>
-
-<p>📍 Pune</p>
-
-<p>690 Sqft</p>
-
-<h6 class="price">₹ 85L</h6>
-
+<div class="real-content">
+<h3>3 BHK Flat for Rent</h3>
+<p>📍 Balasore</p>
+<p>📐 860 Sqft</p>
 </div>
 
 </div>
+
 </div>
 
-<!-- CARD 2 -->
 
 <div class="swiper-slide">
-<div class="card property-card">
 
-<img src="Assets/images/logo.png" class="card-img-top">
+<div class="real-card">
 
-<div class="card-body">
+<div class="real-img">
+<img src="Assets/images/plot2.png">
+<div class="real-price">₹75L</div>
+</div>
 
-<h5>2 BHK Flat</h5>
-
-<p>📍 Ravet Pune</p>
-
-<p>698 Sqft</p>
-
-<h6 class="price">₹ 75L</h6>
-
+<div class="real-content">
+<h3>2 BHK Flat for Sale</h3>
+<p>📍 Balasore</p>
+<p>📐 698 Sqft</p>
 </div>
 
 </div>
+
 </div>
 
-<!-- CARD 3 -->
 
 <div class="swiper-slide">
-<div class="card property-card">
 
-<img src="Assets/images/hero.jpg" class="card-img-top">
+<div class="real-card">
 
-<div class="card-body">
-
-<h5>Residential Plot</h5>
-
-<p>📍 Rajajipuram</p>
-
-<p>441 Sqft</p>
-
-<h6 class="price">₹ 2.3L</h6>
-
+<div class="real-img">
+<img src="Assets/images/plot3.png">
+<div class="real-price">₹85L</div>
 </div>
 
-</div>
+<div class="real-content">
+<h3>Luxury Apartment</h3>
+<p>📍 Balasore</p>
+<p>📐 900 Sqft</p>
 </div>
 
 </div>
 
 </div>
 
+
+<div class="swiper-slide">
+
+<div class="real-card">
+
+<div class="real-img">
+<img src="Assets/images/plot1.png">
+<div class="real-price">₹32K /month</div>
 </div>
+
+<div class="real-content">
+<h3>3 BHK Flat for Rent</h3>
+<p>📍 Balasore</p>
+<p>📐 860 Sqft</p>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="swiper-button-next real-next"></div>
+<div class="swiper-button-prev real-prev"></div>
+
+</div>
+
+</div>
+
+</section>
+
 
 <!-- Slider card end -->
 
@@ -712,52 +792,171 @@ From budget-friendly apartments to luxury villas, we have it all!
 
 
 <!-- Slider card Start-->
-<section class="property-slider">
+<section class="recent-property-slider">
 
 <div class="container">
 
-<h2 class="slider-title">RECENTLY PROPERTIES</h2>
+<h2 class="recent-title">RECENTLY PROPERTIES</h2>
 
-<div class="swiper propertySwiper">
+<div class="swiper recentSwiper">
 
 <div class="swiper-wrapper">
 
+<!-- CARD 1 -->
 <div class="swiper-slide">
-<div class="property-card">
-<img src="Assets/images/hero.jpg">
-<h3>Luxury Apartment</h3>
-<p>... • ₹25,000 / month</p>
-</div>
+
+<div class="recent-card">
+
+<div class="recent-img">
+
+<img src="Assets/images/plot1.png">
+
+<span class="recent-tag rent">RENT</span>
+
+<div class="recent-overlay"></div>
+
 </div>
 
+<div class="recent-content">
+
+<h3>3 BHK FLAT FOR RENT IN VT..</h3>
+
+<p class="recent-location">
+<i class="fa-solid fa-location-dot"></i> Pune, Maharashtra
+</p>
+
+<div class="recent-info">
+
+<span><i class="fa-solid fa-building"></i> Residential</span>
+
+<span><i class="fa-solid fa-house"></i> Flat / Apartments</span>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- CARD 2 -->
 <div class="swiper-slide">
-<div class="property-card">
-<img src="Assets/images/hero.jpg">
-<h3>Modern Flat</h3>
-<p>... • ₹18,000 / month</p>
-</div>
+
+<div class="recent-card">
+
+<div class="recent-img">
+
+<img src="Assets/images/plot2.png">
+
+<span class="recent-tag buy">BUY</span>
+
+<div class="recent-overlay"></div>
+
 </div>
 
+<div class="recent-content">
+
+<h3>2 BHK FURNISHED FLAT FOR ..</h3>
+
+<p class="recent-location">
+<i class="fa-solid fa-location-dot"></i> Pune, Maharashtra
+</p>
+
+<div class="recent-info">
+
+<span><i class="fa-solid fa-building"></i> Residential</span>
+
+<span><i class="fa-solid fa-house"></i> Flat / Apartments</span>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- CARD 3 -->
 <div class="swiper-slide">
-<div class="property-card">
-<img src="Assets/images/logo.png">
-<h3>Office Space</h3>
-<p>... • ₹40,000 / month</p>
-</div>
+
+<div class="recent-card">
+
+<div class="recent-img">
+
+<img src="Assets/images/plot3.png">
+
+<span class="recent-tag buy">BUY</span>
+
+<div class="recent-overlay"></div>
+
 </div>
 
+<div class="recent-content">
+
+<h3>2 BHK FLAT FOR SALE IN RA..</h3>
+
+<p class="recent-location">
+<i class="fa-solid fa-location-dot"></i> Maharashtra
+</p>
+
+<div class="recent-info">
+
+<span><i class="fa-solid fa-building"></i> Residential</span>
+
+<span><i class="fa-solid fa-house"></i> Flat / Apartments</span>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- CARD 4 -->
 <div class="swiper-slide">
-<div class="property-card">
-<img src="Assets/images/logo.png">
-<h3>PG Accommodation</h3>
-<p>... • ₹8,000 / month</p>
+
+<div class="recent-card">
+
+<div class="recent-img">
+
+<img src="Assets/images/plot2.png">
+
+<span class="recent-tag buy">BUY</span>
+
+<div class="recent-overlay"></div>
+
 </div>
+
+<div class="recent-content">
+
+<h3>2 BHK FURNISHED FLAT FOR ..</h3>
+
+<p class="recent-location">
+<i class="fa-solid fa-location-dot"></i> Pune, Maharashtra
+</p>
+
+<div class="recent-info">
+
+<span><i class="fa-solid fa-building"></i> Residential</span>
+
+<span><i class="fa-solid fa-house"></i> Flat / Apartments</span>
+
+</div>
+
 </div>
 
 </div>
 
-<div class="swiper-button-next"></div>
-<div class="swiper-button-prev"></div>
+</div>
+
+</div>
+
+<div class="swiper-button-next recent-next"></div>
+<div class="swiper-button-prev recent-prev"></div>
 
 </div>
 
@@ -765,8 +964,57 @@ From budget-friendly apartments to luxury villas, we have it all!
 
 </section>
 
-<!-- Slider card end -->
+ <!--Slider card end -->
 
+
+ <section class="expertise">
+
+<div class="expertise-container">
+
+<div class="expertise-left">
+
+<h2>OVER 10 YEARS OF<br>EXPERTISE</h2>
+
+<p>
+A decade of excellence in real estate. Trust our
+proven experience to guide you in finding the
+perfect property with ease and confidence.
+</p>
+
+</div>
+
+
+<div class="expertise-right">
+
+<div class="exp-card">
+<div class="exp-icon"><i class="fa-solid fa-house"></i></div>
+<h3>2</h3>
+<p>Listings For Rent</p>
+</div>
+
+<div class="exp-card">
+<div class="exp-icon"><i class="fa-solid fa-tag"></i></div>
+<h3>3</h3>
+<p>Listings For Sale</p>
+</div>
+
+<div class="exp-card">
+<div class="exp-icon"><i class="fa-solid fa-building"></i></div>
+<h3>2</h3>
+<p>Listings For Project</p>
+</div>
+
+<div class="exp-card">
+<div class="exp-icon"><i class="fa-solid fa-user"></i></div>
+<h3>1</h3>
+<p>Agents</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
 
 
 <!-- Footer Start -->
@@ -775,11 +1023,7 @@ From budget-friendly apartments to luxury villas, we have it all!
 
 <!-- Footer end -->
 
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-
 
 <script>
 
@@ -883,7 +1127,7 @@ this.classList.add("active");
 
 /* rent section end*/
 
-/* SLIDER CARD SECTION START*/
+/* SLIDER CARD SECTION START
 
 var swiper = new Swiper(".propertySwiper", {
 slidesPerView: 3,
@@ -916,32 +1160,94 @@ slidesPerView:3
 
 
 
-/* SLIDER CARD SECTION END */
+ SLIDER CARD SECTION END */
 
 
-var swiper = new Swiper(".property-slider", {
 
-slidesPerView:3,
-spaceBetween:20,
 
-loop:true,
+/* slider card*/
+var swiper = new Swiper(".realSlider", {
 
-autoplay:{
-delay:3000,
+slidesPerView: 3,
+spaceBetween: 25,
+loop: true,
+speed: 800,
+
+navigation: {
+nextEl: ".real-next",
+prevEl: ".real-prev",
 },
 
-breakpoints:{
+breakpoints: {
 
-0:{
-slidesPerView:1
+0: {
+slidesPerView: 1,
+spaceBetween: 15
 },
 
-768:{
-slidesPerView:2
+576: {
+slidesPerView: 1,
+spaceBetween: 20
 },
 
-1024:{
-slidesPerView:3
+768: {
+slidesPerView: 2,
+spaceBetween: 20
+},
+
+992: {
+slidesPerView: 2,
+spaceBetween: 25
+},
+
+1200: {
+slidesPerView: 3,
+spaceBetween: 25
+}
+
+}
+
+});
+
+/* recent slider*/
+
+var recentSwiper = new Swiper(".recentSwiper", {
+
+slidesPerView: 3,
+spaceBetween: 25,
+loop: true,
+speed: 800,
+
+navigation: {
+nextEl: ".recent-next",
+prevEl: ".recent-prev",
+},
+
+breakpoints: {
+
+0: {
+slidesPerView: 1,
+spaceBetween: 15
+},
+
+576: {
+slidesPerView: 1,
+spaceBetween: 20
+},
+
+768: {
+slidesPerView: 2,
+spaceBetween: 20
+},
+
+992: {
+slidesPerView: 2,
+spaceBetween: 25
+},
+
+1200: {
+slidesPerView: 3,
+spaceBetween: 30
 }
 
 }
@@ -949,9 +1255,47 @@ slidesPerView:3
 });
 
 
+/* blue part*/
+
+const counters = document.querySelectorAll('.counter');
+
+counters.forEach(counter => {
+
+counter.innerText = '0';
+
+const updateCounter = () => {
+
+const target = +counter.getAttribute('data-target');
+
+const c = +counter.innerText;
+
+const increment = target / 200;
+
+if(c < target){
+
+counter.innerText = `${Math.ceil(c + increment)}`;
+setTimeout(updateCounter,10);
+
+}else{
+
+counter.innerText = target;
+
+}
+
+};
+
+updateCounter();
+
+});
+
+
 
 </script>
-<script src="script.js"></script>
+
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
