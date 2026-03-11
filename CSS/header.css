@@ -1,0 +1,168 @@
+/* ===== GLOBAL ===== */
+
+body{
+font-family:Arial, Helvetica, sans-serif;
+margin:0;
+padding:0;
+}
+
+
+/* ===== TOP BAR ===== */
+
+.topbar{
+background:#1e2a5a;
+color:#fff;
+font-size:14px;
+padding:7px 0;
+}
+
+.topbar span{
+margin-right:20px;
+}
+
+.topbar a{
+color:#fff;
+text-decoration:none;
+margin-left:15px;
+transition:.3s;
+}
+
+.topbar a:hover{
+color:#ff4d4d;
+}
+
+
+/* ===== NAVBAR ===== */
+
+.main-navbar{
+background:#fff;
+padding:18px 0;
+box-shadow:0 3px 10px rgba(0,0,0,0.08);
+transition:.3s;
+}
+
+.site-logo{
+height:60px;
+}
+
+.navbar-nav .nav-link{
+color:#333;
+font-weight:600;
+font-size:17px;
+margin:0 16px;
+position:relative;
+}
+
+/* underline hover */
+
+.navbar-nav .nav-link::after{
+content:"";
+position:absolute;
+width:0;
+height:2px;
+background:#ff4d4d;
+left:0;
+bottom:-6px;
+transition:.3s;
+}
+
+.navbar-nav .nav-link:hover::after{
+width:100%;
+}
+
+.navbar-nav .nav-link.active::after{
+width:100%;
+}
+
+
+/* ===== SUBMIT BUTTON ===== */
+
+.property-btn{
+border:2px solid #ff4d4d;
+padding:10px 26px;
+color:#ff4d4d;
+font-weight:600;
+background:#fff;
+transition:.3s;
+}
+
+.property-btn:hover{
+background:#ff4d4d;
+color:#fff;
+transform:translateY(-2px);
+}
+
+
+/* ===== NAVBAR FIXED ===== */
+
+.navbar-fixed{
+position:fixed;
+top:0;
+width:100%;
+z-index:999;
+animation:slideDown .4s ease;
+}
+
+@keyframes slideDown{
+
+from{ transform:translateY(-100%); }
+to{ transform:translateY(0); }
+
+}
+
+
+/* ===== DROPDOWN ===== */
+
+.navbar .dropdown-menu{
+display:none;
+border:none;
+border-radius:8px;
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
+padding:8px 0;
+margin-top:10px;
+}
+
+/* dropdown item */
+
+.dropdown-item{
+padding:10px 20px;
+font-size:15px;
+transition:.3s;
+}
+
+.dropdown-item:hover{
+background:#ff4d4d;
+color:#fff;
+}
+
+/* hover open (desktop) */
+
+@media(min-width:992px){
+
+.navbar .dropdown:hover .dropdown-menu{
+display:block;
+}
+
+.navbar .dropdown-toggle::after{
+transition:.3s;
+}
+
+.navbar .dropdown:hover .dropdown-toggle::after{
+transform:rotate(180deg);
+}
+
+}
+
+
+/* ===== MOBILE FIX ===== */
+
+@media(max-width:991px){
+
+.navbar .dropdown-menu{
+display:block;
+position:static;
+box-shadow:none;
+margin-top:0;
+}
+
+}

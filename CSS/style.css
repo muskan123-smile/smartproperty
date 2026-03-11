@@ -1,5 +1,7 @@
 /* ===== GLOBAL ===== */
 
+/* ===== GLOBAL ===== */
+
 body{
 font-family:Arial, Helvetica, sans-serif;
 margin:0;
@@ -109,6 +111,64 @@ from{ transform:translateY(-100%); }
 to{ transform:translateY(0); }
 
 }
+
+
+/* ===== DROPDOWN ===== */
+
+.navbar .dropdown-menu{
+display:none;
+border:none;
+border-radius:8px;
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
+padding:8px 0;
+margin-top:10px;
+}
+
+/* dropdown item */
+
+.dropdown-item{
+padding:10px 20px;
+font-size:15px;
+transition:.3s;
+}
+
+.dropdown-item:hover{
+background:#ff4d4d;
+color:#fff;
+}
+
+/* hover open (desktop) */
+
+@media(min-width:992px){
+
+.navbar .dropdown:hover .dropdown-menu{
+display:block;
+}
+
+.navbar .dropdown-toggle::after{
+transition:.3s;
+}
+
+.navbar .dropdown:hover .dropdown-toggle::after{
+transform:rotate(180deg);
+}
+
+}
+
+
+/* ===== MOBILE FIX ===== */
+
+@media(max-width:991px){
+
+.navbar .dropdown-menu{
+display:block;
+position:static;
+box-shadow:none;
+margin-top:0;
+}
+
+}
+
 
 
 /* ===== HERO SECTION ===== */
@@ -633,162 +693,147 @@ transform:scale(1.08);
 
 /* SECTION */
 
-.featured-properties{
-padding:90px 20px;
-background:#f7f8fc;
+.fp-section{
+padding:80px 20px;
+background:#f6f6f6;
 }
 
-/* container width */
-
-.featured-properties .container-fluid{
-max-width:1800px;
+.fp-container{
+max-width:1200px;
 margin:auto;
-padding-left:15px;
-padding-right:15px;
 }
 
-/* TITLE */
-
-.section-text{
+.fp-title{
 text-align:center;
-font-size:36px;
-margin-bottom:60px;
-font-weight:600;
+font-size:28px;
+margin-bottom:40px;
 }
 
-/* reduce bootstrap gap */
+/* GRID */
 
-.featured-properties .row{
---bs-gutter-x:18px;
---bs-gutter-y:18px;
+.fp-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
 }
 
 /* CARD */
 
-.property-card{
+.fp-card{
 background:#fff;
-border-radius:12px;
+border-radius:6px;
 overflow:hidden;
-box-shadow:0 12px 30px rgba(0,0,0,0.08);
-transition:all .4s ease;
-height:100%;
+transition:0.3s;
+box-shadow:0 2px 8px rgba(0,0,0,0.08);
 }
 
-.property-card:hover{
+.fp-card:hover{
 transform:translateY(-10px);
-box-shadow:0 25px 50px rgba(0,0,0,0.18);
 }
 
 /* IMAGE */
 
-.property-image{
+.fp-img{
 position:relative;
-height:240px;
 overflow:hidden;
 }
 
-.property-image img{
+.fp-img img{
 width:100%;
-height:100%;
-object-fit:cover;
-transition:transform .5s ease;
+display:block;
 }
 
-.property-card:hover .property-image img{
-transform:scale(1.08);
+/* BLUE OVERLAY */
+
+.fp-img::after{
+content:"";
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(30,80,180,0.25);
+opacity:0;
+transition:0.3s;
+}
+
+.fp-card:hover .fp-img::after{
+opacity:1;
 }
 
 /* BADGES */
 
-.property-badge{
+.fp-featured{
 position:absolute;
-top:15px;
-padding:6px 12px;
+top:10px;
+left:10px;
+background:#ff3b30;
 color:#fff;
 font-size:12px;
-border-radius:4px;
-font-weight:500;
+padding:4px 8px;
 }
 
-.featured{
-left:15px;
-background:#e53935;
-}
-
-.rent{
-right:15px;
-background:#777;
-}
-
-.buy{
-right:15px;
-background:#2e7d32;
+.fp-rent{
+position:absolute;
+top:10px;
+right:10px;
+background:#999;
+color:#fff;
+font-size:12px;
+padding:4px 8px;
 }
 
 /* PRICE */
 
-.price{
+.fp-price{
 position:absolute;
-bottom:0;
-width:100%;
-background:linear-gradient(to top,rgba(0,0,0,0.75),transparent);
+bottom:10px;
+right:10px;
 color:#fff;
-padding:12px;
-font-size:16px;
-font-weight:500;
+font-weight:600;
 }
 
 /* CONTENT */
 
-.property-content{
-padding:22px;
+.fp-content{
+padding:20px;
 }
 
-.property-content h3{
+.fp-content h3{
+font-size:16px;
 color:#e53935;
-font-size:20px;
-margin-bottom:5px;
+margin-bottom:10px;
 }
 
-.location{
+.fp-location{
 font-size:14px;
-color:#555;
-margin:10px 0;
+color:#666;
+margin-bottom:15px;
 }
 
-/* PROPERTY INFO */
+/* INFO */
 
-.property-info{
+.fp-info{
 display:flex;
-gap:18px;
-font-size:14px;
-color:#444;
+justify-content:space-between;
+font-size:13px;
+color:#555;
 }
 
-/* TABLET */
+/* RESPONSIVE */
 
-@media (max-width:992px){
+@media(max-width:992px){
 
-.section-text{
-font-size:30px;
-}
-
-}
-
-/* MOBILE */
-
-@media (max-width:768px){
-
-.property-image{
-height:220px;
+.fp-grid{
+grid-template-columns:repeat(2,1fr);
 }
 
 }
 
-@media (max-width:576px){
+@media(max-width:600px){
 
-.section-text{
-font-size:26px;
+.fp-grid{
+grid-template-columns:1fr;
 }
 
 }

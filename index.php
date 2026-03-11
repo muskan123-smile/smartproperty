@@ -16,13 +16,17 @@
 
 
 <!-- Custom CSS -->
+ <link rel="stylesheet" href="CSS/header.css">
 <link rel="stylesheet" href="CSS/style.css">
 <link rel="stylesheet" href="CSS/footer.css">
+
 
 
 </head>
 
 <body>
+
+
 
 <!-- TOPBAR -->
 
@@ -45,6 +49,8 @@
 
 <!-- NAVBAR -->
 
+<!-- NAVBAR -->
+
 <nav class="navbar navbar-expand-lg main-navbar">
 
 <div class="container">
@@ -62,11 +68,27 @@
 <ul class="navbar-nav mx-auto">
 
 <li class="nav-item">
-<a class="nav-link active" href="#">HOME</a>
+<a class="nav-link active" href="index.php">HOME</a>
 </li>
 
-<li class="nav-item">
-<a class="nav-link" href="#">ABOUT</a>
+<!-- PROPERTIES DROPDOWN -->
+
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+PROPERTIES
+</a>
+
+<ul class="dropdown-menu">
+
+<li>
+<a class="dropdown-item" href="#">Rent</a>
+</li>
+
+<li>
+<a class="dropdown-item" href="#">Sell</a>
+</li>
+
+</ul>
 </li>
 
 <li class="nav-item">
@@ -74,24 +96,11 @@
 </li>
 
 <li class="nav-item">
-<a class="nav-link" href="#">PROPERTIES</a>
-</li>
-
-<!----
-<li class="nav-item">
-<a class="nav-link" href="#">ALL PROPERTIES</a>
+<a class="nav-link" href="aboutus.php">ABOUT</a>
 </li>
 
 <li class="nav-item">
-<a class="nav-link" href="#">SELL PROPERTIES</a>
-</li> ---->
-
-<li class="nav-item">
-<a class="nav-link" href="#">CONTACT</a>
-</li>
-
-<li class="nav-item">
-<a class="nav-link" href="#">BLOG</a>
+<a class="nav-link" href="contactus.php">CONTACT</a>
 </li>
 
 </ul>
@@ -103,6 +112,7 @@
 </div>
 </div>
 </nav>
+
 
 
 <!-- HERO SECTION -->
@@ -353,221 +363,223 @@ View All <i class="fa-solid fa-arrow-right"></i>
 
 <!-- Card section start-->
 
-<section class="featured-properties">
+<section class="fp-section">
 
-<div class="container-fluid">
+<div class="fp-container">
 
-<h2 class="section-text">FEATURED PROPERTIES</h2>
+<h2 class="fp-title">FEATURED PROPERTIES</h2>
 
-<div class="row g-3">
+<div class="fp-grid">
 
-<!-- Card 1 -->
-<div class="col-xl-3 col-lg-3 col-md-6">
-<div class="property-card">
+<!-- CARD -->
+<div class="fp-card">
 
-<div class="property-image">
-<img src="Assets/images/plot1.png" class="img-fluid">
+<div class="fp-img">
 
-<span class="property-badge featured">FEATURED</span>
-<span class="property-badge rent">RENT</span>
+<img src="Assets/images/plot7.png" alt="property">
 
-<div class="price">₹25,000</div>
-</div>
+<span class="fp-featured">FEATURED</span>
+<span class="fp-rent">RENT</span>
 
-<div class="property-content">
-<h3>2 BHK Flat for Rent</h3>
-<p class="location">📍 Balasore</p>
-
-<div class="property-info">
-<span>🏢 Residential</span>
-<span>🏠 Flat / Apartments</span>
-</div>
-</div>
+<div class="fp-price">₹ 36,000</div>
 
 </div>
-</div>
 
-<!-- Card 2 -->
-<div class="col-xl-3 col-lg-3 col-md-6">
-<div class="property-card">
+<div class="fp-content">
 
-<div class="property-image">
-<img src="Assets/images/plot2.png" class="img-fluid">
+<h3>2 BHK Flat for Rent in Godrej 24 Hinjewadi</h3>
 
-<span class="property-badge featured">FEATURED</span>
-<span class="property-badge rent">RENT</span>
+<p class="fp-location">
+<i class="fa fa-map-marker-alt"></i> Pune , Maharashtra
+</p>
 
-<div class="price">₹32,000</div>
-</div>
+<div class="fp-info">
 
-<div class="property-content">
-<h3>3 BHK Flat for Rent</h3>
-<p class="location">📍 Balasore</p>
+<span><i class="fa fa-building"></i> Residential</span>
+<span><i class="fa fa-home"></i> Flat / Apartments</span>
+<span><i class="fa fa-map-pin"></i> 411045</span>
 
-<div class="property-info">
-<span>🏢 Residential</span>
-<span>🏠 Flat / Apartments</span>
-</div>
 </div>
 
 </div>
-</div>
-
-<!-- Card 3 -->
-<div class="col-xl-3 col-lg-3 col-md-6">
-<div class="property-card">
-
-<div class="property-image">
-<img src="Assets/images/plot3.png" class="img-fluid">
-
-<span class="property-badge featured">FEATURED</span>
-<span class="property-badge buy">BUY</span>
-
-<div class="price">₹85,00,000</div>
-</div>
-
-<div class="property-content">
-<h3>2 BHK Furnished Flat</h3>
-<p class="location">📍 Balasore</p>
-
-<div class="property-info">
-<span>🏢 Residential</span>
-<span>🏠 Flat / Apartments</span>
-</div>
-</div>
 
 </div>
+<!-- CARD END -->
+
+<!-- CARD -->
+<div class="fp-card">
+
+<div class="fp-img">
+
+<img src="Assets/images/plot6.png" alt="property">
+
+<span class="fp-featured">FEATURED</span>
+<span class="fp-rent">RENT</span>
+
+<div class="fp-price">₹ 36,000</div>
+
 </div>
 
-<!-- Card 4 -->
-<div class="col-xl-3 col-lg-3 col-md-6">
-<div class="property-card">
+<div class="fp-content">
 
-<div class="property-image">
-<img src="Assets/images/plot4.png" class="img-fluid">
+<h3>2 BHK Flat for Rent in Godrej 24 Hinjewadi</h3>
 
-<span class="property-badge featured">FEATURED</span>
-<span class="property-badge buy">BUY</span>
+<p class="fp-location">
+<i class="fa fa-map-marker-alt"></i> Pune , Maharashtra
+</p>
 
-<div class="price">₹65,00,000</div>
-</div>
+<div class="fp-info">
 
-<div class="property-content">
-<h3>Luxury 3 BHK Apartment</h3>
-<p class="location">📍 Balasore</p>
+<span><i class="fa fa-building"></i> Residential</span>
+<span><i class="fa fa-home"></i> Flat / Apartments</span>
+<span><i class="fa fa-map-pin"></i> 411045</span>
 
-<div class="property-info">
-<span>🏢 Residential</span>
-<span>🏠 Flat / Apartments</span>
-</div>
 </div>
 
 </div>
-</div>
-
-<!-- Card 5 -->
-<div class="col-xl-3 col-lg-3 col-md-6">
-<div class="property-card">
-
-<div class="property-image">
-<img src="Assets/images/plot5.png" class="img-fluid">
-
-<span class="property-badge featured">FEATURED</span>
-<span class="property-badge rent">RENT</span>
-
-<div class="price">₹25,000</div>
-</div>
-
-<div class="property-content">
-<h3>Modern 2 BHK Flat</h3>
-<p class="location">📍 Balasore</p>
-
-<div class="property-info">
-<span>🏢 Residential</span>
-<span>🏠 Flat / Apartments</span>
-</div>
-</div>
 
 </div>
+<!-- CARD END -->
+
+<!-- CARD -->
+<div class="fp-card">
+
+<div class="fp-img">
+
+<img src="Assets/images/plot4.png" alt="property">
+
+<span class="fp-featured">FEATURED</span>
+<span class="fp-rent">RENT</span>
+
+<div class="fp-price">₹ 36,000</div>
+
 </div>
 
-<!-- Card 6 -->
-<div class="col-xl-3 col-lg-3 col-md-6">
-<div class="property-card">
+<div class="fp-content">
 
-<div class="property-image">
-<img src="Assets/images/plot6.png" class="img-fluid">
+<h3>2 BHK Flat for Rent in Godrej 24 Hinjewadi</h3>
 
-<span class="property-badge featured">FEATURED</span>
-<span class="property-badge rent">RENT</span>
+<p class="fp-location">
+<i class="fa fa-map-marker-alt"></i> Pune , Maharashtra
+</p>
 
-<div class="price">₹32,000</div>
-</div>
+<div class="fp-info">
 
-<div class="property-content">
-<h3>3 BHK Flat</h3>
-<p class="location">📍 Balasore</p>
+<span><i class="fa fa-building"></i> Residential</span>
+<span><i class="fa fa-home"></i> Flat / Apartments</span>
+<span><i class="fa fa-map-pin"></i> 411045</span>
 
-<div class="property-info">
-<span>🏢 Residential</span>
-<span>🏠 Flat / Apartments</span>
-</div>
 </div>
 
 </div>
-</div>
-
-<!-- Card 7 -->
-<div class="col-xl-3 col-lg-3 col-md-6">
-<div class="property-card">
-
-<div class="property-image">
-<img src="Assets/images/plot7.png" class="img-fluid">
-
-<span class="property-badge featured">FEATURED</span>
-<span class="property-badge buy">BUY</span>
-
-<div class="price">₹85,00,000</div>
-</div>
-
-<div class="property-content">
-<h3></h3>
-<p class="location">📍 Balasore</p>
-
-<div class="property-info">
-<span>🏢 Residential</span>
-<span>🏠 Flat / Apartments</span>
-</div>
-</div>
 
 </div>
+<!-- CARD END -->
+
+<!-- CARD -->
+<div class="fp-card">
+
+<div class="fp-img">
+
+<img src="Assets/images/plot3.png" alt="property">
+
+<span class="fp-featured">FEATURED</span>
+<span class="fp-rent">RENT</span>
+
+<div class="fp-price">₹ 36,000</div>
+
 </div>
 
-<!-- Card 8 -->
-<div class="col-xl-3 col-lg-3 col-md-6">
-<div class="property-card">
+<div class="fp-content">
 
-<div class="property-image">
-<img src="Assets/images/plot8.png" class="img-fluid">
+<h3>2 BHK Flat for Rent in Godrej 24 Hinjewadi</h3>
 
-<span class="property-badge featured">FEATURED</span>
-<span class="property-badge buy">BUY</span>
+<p class="fp-location">
+<i class="fa fa-map-marker-alt"></i> Pune , Maharashtra
+</p>
 
-<div class="price">₹65,00,000</div>
-</div>
+<div class="fp-info">
 
-<div class="property-content">
-<h3>Luxury Apartment</h3>
-<p class="location">📍 Balasore</p>
+<span><i class="fa fa-building"></i> Residential</span>
+<span><i class="fa fa-home"></i> Flat / Apartments</span>
+<span><i class="fa fa-map-pin"></i> 411045</span>
 
-<div class="property-info">
-<span>🏢 Residential</span>
-<span>🏠 Flat / Apartments</span>
-</div>
 </div>
 
 </div>
+
 </div>
+<!-- CARD END -->
+
+<!-- CARD -->
+<div class="fp-card">
+
+<div class="fp-img">
+
+<img src="Assets/images/plot2.png" alt="property">
+
+<span class="fp-featured">FEATURED</span>
+<span class="fp-rent">RENT</span>
+
+<div class="fp-price">₹ 36,000</div>
+
+</div>
+
+<div class="fp-content">
+
+<h3>2 BHK Flat for Rent in Godrej 24 Hinjewadi</h3>
+
+<p class="fp-location">
+<i class="fa fa-map-marker-alt"></i> Pune , Maharashtra
+</p>
+
+<div class="fp-info">
+
+<span><i class="fa fa-building"></i> Residential</span>
+<span><i class="fa fa-home"></i> Flat / Apartments</span>
+<span><i class="fa fa-map-pin"></i> 411045</span>
+
+</div>
+
+</div>
+
+</div>
+<!-- CARD END -->
+
+<!-- CARD -->
+<div class="fp-card">
+
+<div class="fp-img">
+
+<img src="Assets/images/plot1.png" alt="property">
+
+<span class="fp-featured">FEATURED</span>
+<span class="fp-rent">RENT</span>
+
+<div class="fp-price">₹ 36,000</div>
+
+</div>
+
+<div class="fp-content">
+
+<h3>2 BHK Flat for Rent in Godrej 24 Hinjewadi</h3>
+
+<p class="fp-location">
+<i class="fa fa-map-marker-alt"></i> Pune , Maharashtra
+</p>
+
+<div class="fp-info">
+
+<span><i class="fa fa-building"></i> Residential</span>
+<span><i class="fa fa-home"></i> Flat / Apartments</span>
+<span><i class="fa fa-map-pin"></i> 411045</span>
+
+</div>
+
+</div>
+
+</div>
+<!-- CARD END -->
 
 </div>
 
@@ -1047,6 +1059,9 @@ navbar.classList.remove("navbar-fixed");
 }
 
 });
+
+
+
 
 
 /* ADVANCE SEARCH TOGGLE */

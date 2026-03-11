@@ -1,0 +1,338 @@
+/* PAGE BANNER */
+body{
+background: #f7f7f7;
+
+}
+
+
+.page-banner{
+position:relative;
+height:220px;
+background:url("../Assets/images/sub-banner.jpg") center/cover no-repeat;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+}
+
+/* overlay */
+
+.banner-overlay{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(90,95,170,0.7);
+}
+
+/* text */
+
+.banner-content{
+position:relative;
+color:white;
+z-index:2;
+}
+
+.banner-content h1{
+font-size:32px;
+font-weight:600;
+margin-bottom:10px;
+}
+
+.banner-content p{
+font-size:16px;
+}
+
+@media(max-width:768px){
+
+.page-banner{
+height:180px;
+}
+
+.banner-content h1{
+font-size:24px;
+}
+
+}
+
+
+/* HERO FORM SECTION */
+
+.ct-section{
+padding:80px 20px;
+background:#f7f7f7;
+}
+
+.ct-container{
+max-width:1200px;
+margin:auto;
+}
+
+/* GRID */
+
+.ct-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+}
+
+/* FORM */
+
+.ct-form{
+background:#fff;
+padding:30px;
+border-radius:6px;
+}
+
+.ct-form h3{
+margin-bottom:20px;
+}
+
+.ct-row{
+display:flex;
+gap:15px;
+margin-bottom:15px;
+}
+
+.ct-form input,
+.ct-form textarea,
+.ct-form select{
+width:100%;
+padding:12px;
+border:1px solid #ddd;
+border-radius:3px;
+}
+
+.ct-form textarea{
+height:120px;
+resize:none;
+margin-bottom:15px;
+}
+
+.ct-form select{
+margin-bottom:20px;
+}
+
+.ct-btn{
+background:#e53935;
+color:#fff;
+border:none;
+padding:12px 25px;
+cursor:pointer;
+}
+
+/* INFO SIDE */
+
+.ct-info{
+position:relative;
+background:linear-gradient(rgba(74, 87, 189, 0.9),rgba(81, 91, 172, 0.9)),
+url("../Assets/images/img-4.jpg");
+background-size:cover;
+background-position:center;
+color:#fff;
+border-radius:6px;
+}
+
+.ct-info-content{
+padding:40px;
+}
+
+.ct-item{
+display:flex;
+gap:15px;
+margin-bottom:25px;
+}
+
+.ct-item i{
+background:#fff;
+color:#e53935;
+width:45px;
+height:45px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+/* FOLLOW */
+
+.ct-follow{
+margin-top:20px;
+margin-bottom:10px;
+}
+
+/* SOCIAL ICONS */
+
+.ct-social{
+display:flex;
+gap:12px;
+}
+
+.ct-social a{
+position:relative;
+width:42px;
+height:42px;
+background:#fff;
+color:#333;
+display:flex;
+align-items:center;
+justify-content:center;
+text-decoration:none;
+border-radius:4px;
+transition:0.3s;
+font-size:16px;
+}
+
+/* TOOLTIP MESSAGE BOX */
+
+.ct-social a span{
+position:absolute;
+bottom:120%;
+left:50%;
+transform:translateX(-50%);
+font-size:12px;
+padding:5px 10px;
+border-radius:4px;
+opacity:0;
+transition:0.3s;
+white-space:nowrap;
+color:#fff;
+}
+
+/* TOOLTIP ARROW */
+
+.ct-social a span::after{
+content:"";
+position:absolute;
+top:100%;
+left:50%;
+transform:translateX(-50%);
+border-width:6px;
+border-style:solid;
+}
+
+/* SHOW TOOLTIP */
+
+.ct-social a:hover span{
+opacity:1;
+bottom:135%;
+}
+
+/* FACEBOOK */
+
+.ct-facebook:hover{
+background:#1877f2;
+color:#fff;
+}
+
+.ct-facebook span{
+background:#1877f2;
+}
+
+.ct-facebook span::after{
+border-color:#1877f2 transparent transparent transparent;
+}
+
+/* INSTAGRAM */
+
+.ct-instagram:hover{
+background:#e1306c;
+color:#fff;
+}
+
+.ct-instagram span{
+background:#e1306c;
+}
+
+.ct-instagram span::after{
+border-color:#e1306c transparent transparent transparent;
+}
+
+/* TWITTER */
+
+.ct-twitter:hover{
+background:#1da1f2;
+color:#fff;
+}
+
+.ct-twitter span{
+background:#1da1f2;
+}
+
+.ct-twitter span::after{
+border-color:#1da1f2 transparent transparent transparent;
+}
+
+/* WHATSAPP */
+
+.ct-whatsapp:hover{
+background:#25d366;
+color:#fff;
+}
+
+.ct-whatsapp span{
+background:#25d366;
+}
+
+.ct-whatsapp span::after{
+border-color:#25d366 transparent transparent transparent;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:900px){
+
+.ct-grid{
+grid-template-columns:1fr;
+}
+
+.ct-info{
+margin-top:20px;
+}
+
+.ct-row{
+flex-direction:column;
+}
+
+}
+
+
+/* MAP SECTION */
+
+.ct-map-section{
+width:100%;
+margin-top:80px;
+background: #f7f7f7;
+}
+
+.ct-map{
+width:100%;
+height:420px;
+overflow:hidden;
+}
+
+.ct-map iframe{
+width:100%;
+height:100%;
+border:0;
+display:block;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+.ct-map{
+height:350px;
+}
+
+}
+
+@media(max-width:480px){
+
+.ct-map{
+height:300px;
+}
+
+}
